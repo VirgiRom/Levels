@@ -1,0 +1,71 @@
+<template> 
+<div class="Uno">
+    <lightning-card
+        title="LEVEL 1"
+        icon-name="custom:custom62"
+    >
+        <div class="slds-var-m-around_medium">
+            <template if:true={acclevel1.data}>
+                <div style="height: 300px;">
+                <lightning-datatable
+                    key-field="Id"
+                    data={acclevel1.data}
+                    columns={columns}
+                    data-id="Level1"     
+                >
+                </lightning-datatable>
+                </div>
+            </template>
+        </div>
+
+    </lightning-card>
+</div>
+
+<div class="Dos">
+        <lightning-card
+            title="LEVEL 2"
+            icon-name="custom:custom62"
+    >
+            <div class="slds-var-m-around_medium">
+                <template if:true={acclevel2.data}>
+                    <div style="height: 300px;">
+                    <lightning-datatable
+                        key-field="Id"
+                        data={acclevel2.data}
+                        columns={columns}
+                        data-id="Level2"          
+                    >
+                    </lightning-datatable>
+                    </div>
+                </template>
+            </div>
+        </lightning-card>
+ </div>
+
+ <div class="Tres">
+    <lightning-card
+        title="LEVEL 3"
+        icon-name="custom:custom62"
+>
+        <div class="slds-var-m-around_medium">
+            <template if:true={acclevel3.data}>
+                <div style="height: 300px;">
+                <lightning-datatable
+                    key-field="Id"
+                    data={acclevel3.data}
+                    columns={columns}
+                    data-id="Level3"          
+                >
+                </lightning-datatable>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</div>
+
+ 
+
+ <button class="slds-button slds-button_success" onclick={handleClick}>Update the level of the accounts</button>  
+     
+</template> 
+

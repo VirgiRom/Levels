@@ -1,0 +1,17 @@
+.Uno {
+    width: 50%;
+    display: inline-flex;
+}
+
+.Dos {
+    width: 50%;
+    display: inline-flex;
+    float: right;
+}
+
+.slds-button {
+    margin-top: 1%;
+    margin-left: 84%;
+    background-color: rgb(51, 153, 197);
+    color: rgb(255, 253, 253);
+}
