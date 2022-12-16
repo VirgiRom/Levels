@@ -1,10 +1,16 @@
 .Uno {
-    width: 50%;
+    width: 33%;
     display: inline-flex;
 }
 
 .Dos {
-    width: 50%;
+    width: 33%;
+    display: inline-flex;
+    
+}
+
+.Tres {
+    width: 34%;
     display: inline-flex;
     float: right;
 }
