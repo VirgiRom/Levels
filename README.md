@@ -1,7 +1,7 @@
 # Levels
 Flow: Las tablas cambian de nivel 1 a nivel 2 en el caso de las realizadas.
 
-Apex y LWC: Las tablas cambian de nivel 1 a 2, de 2 a 3 y de 3 a 1.
+Apex y LWC: Las tablas cambian de nivel 1 a nivel 2, de nivel 2 a 3 y de nivel 3 a 1.
 
 HOME
 ![image](https://user-images.githubusercontent.com/99770498/207994326-fc51a5b0-e249-4cbb-9a0a-b566a049533d.png)
